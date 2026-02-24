@@ -1,0 +1,149 @@
+{
+  "personal": {
+    "name": "Akash Narkar",
+    "title": "Full Stack Developer",
+    "tagline": "Hardworking developer with a smart approach to problem-solving and clean code",
+    "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+    "bio": "I’m a passionate full-stack developer with 2+ years of experience crafting scalable web applications. I specialize in both frontend and backend development, turning complex challenges into simple, elegant, and efficient solutions.",
+    "location": "Mumbai, Maharashtra, India",
+    "email": "akashnarkar47@gmail.com",
+    "phone": "9769103246",
+    "social": {
+      "github": "https://github.com/akashnarkar14",
+      "linkedin": "https://www.linkedin.com/in/akash-narkar-859131286/"
+    }
+  },
+  "skills": [
+    {
+      "category": "Frontend",
+      "items": [
+        { "name": "JavaScript", "level": 95 },
+        { "name": "React", "level": 90 },
+        { "name": "TypeScript", "level": 80 },
+        { "name": "Next.js", "level": 65 },
+        { "name": "HTML", "level": 95 },
+        { "name": "CSS", "level": 95 }
+      ]
+    },
+    {
+      "category": "Backend",
+      "items": [
+        { "name": "Laravel", "level": 90 },
+        { "name": "Node", "level": 85 },
+        { "name": "MySql", "level": 80 },
+        { "name": "MongoDB", "level": 70 }
+      ]
+    },
+    {
+      "category": "DevOps & Tools",
+      "items": [
+        { "name": "Git", "level": 100 },
+        { "name": "AWS", "level": 70 },
+        { "name": "Render", "level": 100 }
+      ]
+    }
+  ],
+  "projects": [
+    
+    {
+      "id": 1,
+      "title": "ChatFusionAI",
+      "description": "chat app with real-time updates",
+      "image": "/assets/chatAppImg.jpg",
+      "technologies": ["React", "CSS","Node.js","Socket.io", "MongoDB", "Express", "OpenRouter"],
+      "github": "https://github.com/akashnarkar14/RealTimeChatAppAIFeature ",
+      "live": "https://chatfusionai.onrender.com",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "CodeReviewer",
+      "description": "Built an AI-based application to analyze source code and generate Code Quality Scores. Provides structured feedback to help developers improve maintainability, performance, and security.",
+      "image": "/assets/AiCodeReviewer1.jpg",
+      "technologies": ["React", "CSS","Node.js", "OpenRouter"],
+      "github": "https://github.com/akashnarkar14/",
+      "live": "https://codereviewerapp.onrender.com/",
+      "featured": false
+    },
+    {
+      "id": 3,
+      "title": "Fashion Store E-Commerce Platform",
+      "description": "A full-stack e-commerce app for buying and selling fashion products, payment processing, and admin dashboard.",
+      "image": "/assets/eCommerceScrImg.jpg",
+      "technologies": ["React", "CSS","Node.js", "MongoDB", "Express", "PayPal", "Chakra UI"],
+      "github": "https://github.com/akashnarkar14/fashionStore",
+      "live": "https://fashionstore-jiah.onrender.com/",
+      "featured": true
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "position": "Full Stack Developer",
+      "company": "Taurus Technologies",
+      "location": "Lower Parel, Mumbai, Maharashtra, India",
+      "startDate": "Feb 2024",
+      "endDate": "Present",
+      "current": true,
+      "description": "Full Stack Developer with 2 years of experience delivering high-quality features, optimizing system performance, and solving complex business problems.",
+      "achievements": [
+        "Improved API performance by 60% by identifying and resolving sub-ledger data timeout issues through effective performance optimization.",
+        "Enhanced 80% of core accounting module features, improving overall system functionality, reliability, and performance.",
+        "Executed complex accounting and fund transfer processes with high accuracy, ensuring data integrity and operational reliability.",
+        "Developed and optimized a complex rule engine to automate decision-making and improve system efficiency and scalability."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "degree": "Bachelor of Science in Information Technology",
+      "institution": "University of Mumbai",
+      "location": "Mumbai, Maharashtra, India",
+      "startDate": "2020",
+      "endDate": "2023",
+      "gpa": "9.0/10",
+      "description": "Studied core concepts of software development, databases, networking, and web technologies.",
+      "courses": [
+        "Artificial Intelligence",
+        "Web Development",
+        "Data Structures & Algorithms",
+        "Database Management Systems",
+        "Software Engineering"
+      ]
+    },
+    {
+      "id": 2,
+      "degree": "Full Stack Web Development Certificate",
+      "institution": "RST Forum",
+      "location": "Mumbai, Maharashtra, India",
+      "startDate": "2023",
+      "endDate": "2023",
+      "description": "Comprehensive program covering modern web development technologies and best practices.",
+       "courses": [
+        "React",
+        "Javascript",
+        "Mongo DB",
+        "Node.js",
+        "Express"
+      ]
+    },
+    {
+      "id": 3,
+      "degree": "Master of Science in Information Technology",
+      "institution": "University of Mumbai",
+      "location": "Mumbai, Maharashtra, India",
+      "startDate": "2024",
+      "endDate": "pursuing",
+      "gpa": "8.0/10",
+      "description": "Strong foundation in AI/ML, software architecture, data structures, and distributed systems.",
+      "courses": [
+        "Advance Artificial Intelligence",
+        "Software as a Service",
+        "Machine Learning",
+        "Cloud Computing",
+        "Data Science"
+      ]
+    }
+  ]
+}
