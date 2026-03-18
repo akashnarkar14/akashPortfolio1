@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import "./Portfolio.css";
 import portfolioData from "./portfolio-data.json";
 import emailjs from "@emailjs/browser";
-import logo from "./assets/akashPhotoRedbg.jpeg";
+import logo from "./assets/AkashPhoto.jpg";
 // Navbar Component
 const Navbar = ({ activeSection, onNavigate }) => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -405,9 +405,7 @@ const Contact = () => {
         <div className="contact-content">
           <div className="contact-info">
             <h3>Let's Connect</h3>
-            <p>
-              I'm always interested in hearing about new opportunities.
-            </p>
+            <p>I'm always interested in hearing about new opportunities.</p>
             <div className="contact-details">
               <div className="contact-item">
                 <svg
@@ -427,12 +425,29 @@ const Contact = () => {
                     title={emailCopied ? "Copied!" : "Copy email"}
                   >
                     {emailCopied ? (
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2.5"
+                      >
                         <polyline points="20 6 9 17 4 12"></polyline>
                       </svg>
                     ) : (
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                      >
+                        <rect
+                          x="9"
+                          y="9"
+                          width="13"
+                          height="13"
+                          rx="2"
+                          ry="2"
+                        ></rect>
                         <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
                       </svg>
                     )}
@@ -538,7 +553,6 @@ const Contact = () => {
 // Main Portfolio App
 const Portfolio = () => {
   const [activeSection, setActiveSection] = useState("home");
-  const sectionsRef = useRef([]);
 
   useEffect(() => {
     const handleScroll = () => {
